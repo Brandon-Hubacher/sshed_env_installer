@@ -1,0 +1,24 @@
+arch, ubuntu, rhel, description
+xorg, xorg, ..., X server
+xorg-xinit, xinit, ..., Display server boot
+man, man, ..., Manual
+man-pages, manpages, ..., Manual pages
+networkmanager, ..., ..., Network manager
+rsync, rsync, ..., Synchronizing files across computers
+xsel, xsel, ..., Manipulate the X selection
+fzf, fzf, ..., Command line fuzzy finder
+scrot, scrot, ..., Screenshot software
+udiskie, ..., ..., Automount devices
+xcape, xcape, ..., Configure modifier keys to act as other keys
+ripgrep, ripgrep, ..., Faster alternative to grep
+htop, htop, ..., Interactive process viewer
+tmux, tmux, ..., Terminal multiplexer
+tmuxp, tmuxp, ..., Configure tmux session + windows + panes via config files
+dunst, ..., ..., Notification system
+libnotify, ..., ..., Notifier
+git, git, ..., Version control system
+diff-so-fancy, ..., ..., Human readable git diff
+zsh, zsh, ..., Unix shell (Z-Shell)
+zsh-completions, zsh-completions, ..., Additional completions for Zsh
+zsh-syntax-highlighting, zsh-syntax-highlighting, ..., Syntax highlighting for Zsh
+neovim, neovim, ..., Text editor
