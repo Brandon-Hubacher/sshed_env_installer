@@ -20,6 +20,7 @@ for elem in "$@"; do
         sudo make install
 
         export PATH="$HOME/sshed_env_installer/neovim/build/bin:$PATH"
+    fi
 
     sudo apt-get install -y "$elem"
 done
