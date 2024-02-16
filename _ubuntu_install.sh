@@ -10,7 +10,7 @@ for elem in "$@"; do
         continue;
     fi
 
-    if [ "$elem" = "neovim" ]; then
+    if [ "$elem" = "neovim" ] && ! [ command -v nvim ]; then
         # Install neovim dependencies
         sudo apt-get install -y ninja-build gettext cmake unzip curl
 
