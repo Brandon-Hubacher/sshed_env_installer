@@ -6,8 +6,12 @@ for elem in "$@"; do
     echo "$elem"
 
     if [ "$elem" = "diff-so-fancy" ]; then
-        echo "Installing diff-so-fancy is not yet implemented"
-        continue;
+        mkdir -p "$HOME/bin"
+        export PATH="$PATH:$HOME/bin"
+        cd "$HOME/bin"
+        git clone https://github.com/so-fancy/diff-so-fancy diffsofancy
+        chmod +x diffsofancy/diff-so-fancy
+        ln -s "$HOME/bin/diffsofancy/diff-so-fancy" "$HOME/bin/diff-so-fancy"
     fi
 
     if [ "$elem" = "neovim" ] && ! [ $(command -v nvim) ]; then
