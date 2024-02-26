@@ -30,6 +30,7 @@ fi
 DOTFILES="/home/$(whoami)/dotfiles"
 if [ ! -d "$DOTFILES" ]; then
     git clone https://github.com/Brandon-Hubacher/dotfiles.git "$DOTFILES" >/dev/null
+    cd "$DOTFILES" && git checkout Work-Laptop
 fi
 
 source "$DOTFILES/zsh/.zshenv"
