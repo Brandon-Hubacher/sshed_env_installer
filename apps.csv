@@ -17,7 +17,7 @@ tmuxp, tmuxp, ..., Configure tmux session + windows + panes via config files
 dunst, ..., ..., Notification system
 libnotify, ..., ..., Notifier
 git, git, ..., Version control system
-diff-so-fancy, ..., ..., Human readable git diff
+diff-so-fancy, diff-so-fancy ..., Human readable git diff
 zsh, zsh, ..., Unix shell (Z-Shell)
 zsh-completions, zsh-completions, ..., Additional completions for Zsh
 zsh-syntax-highlighting, zsh-syntax-highlighting, ..., Syntax highlighting for Zsh
