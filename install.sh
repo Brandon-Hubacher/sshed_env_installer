@@ -36,7 +36,7 @@ fi
 source "$DOTFILES/zsh/.zshenv"
 cd "$DOTFILES" && bash install.sh
 
-if ! [ $(ps -p$$ -ocmd=) = "zsh" ]; then
-    chsh -s "$(which zsh)" "$(whoami)";
-    # reboot required (I think) to change shell
-fi
+# if ! [ $(ps -p$$ -ocmd=) = "zsh" ]; then
+#     chsh -s "$(which zsh)" "$(whoami)";
+#     # reboot required (I think) to change shell
+# fi
